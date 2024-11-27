@@ -92,6 +92,7 @@ class CountryCodePicker extends StatefulWidget {
   final EdgeInsetsGeometry dialogItemPadding;
 
   final EdgeInsetsGeometry searchPadding;
+  final EdgeInsetsGeometry countryFlatMargin;
 
   const CountryCodePicker({
     this.onChanged,
@@ -133,6 +134,7 @@ class CountryCodePicker extends StatefulWidget {
         const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
     this.searchPadding = const EdgeInsets.symmetric(horizontal: 24),
     Key? key,
+    required this.countryFlatMargin,
   }) : super(key: key);
 
   @override
@@ -178,8 +180,8 @@ class CountryCodePickerState extends State<CountryCodePicker> {
         child: widget.builder!(selectedItem),
       );
     } else {
-      internalWidget = TextButton(
-        onPressed: widget.enabled ? showCountryCodePickerDialog : null,
+      internalWidget = InkWell(
+        onTap: widget.enabled ? showCountryCodePickerDialog : null,
         child: Padding(
           padding: widget.padding,
           child: Flex(
@@ -189,23 +191,15 @@ class CountryCodePickerState extends State<CountryCodePicker> {
               if (widget.showFlagMain != null
                   ? widget.showFlagMain!
                   : widget.showFlag)
-                Flexible(
-                  flex: widget.alignLeft ? 0 : 1,
-                  fit: widget.alignLeft ? FlexFit.tight : FlexFit.loose,
-                  child: Container(
-                    clipBehavior: widget.flagDecoration == null
-                        ? Clip.none
-                        : Clip.hardEdge,
-                    decoration: widget.flagDecoration,
-                    margin: widget.margin ??
-                        (widget.alignLeft
-                            ? const EdgeInsets.only(right: 16.0, left: 8.0)
-                            : const EdgeInsets.only(right: 16.0)),
-                    child: Image.asset(
-                      selectedItem!.flagUri!,
-                      package: 'country_code_picker',
-                      width: widget.flagWidth,
-                    ),
+                Container(
+                  clipBehavior:
+                      widget.flagDecoration == null ? Clip.none : Clip.hardEdge,
+                  decoration: widget.flagDecoration,
+                  margin: widget.countryFlatMargin,
+                  child: Image.asset(
+                    selectedItem!.flagUri!,
+                    package: 'country_code_picker',
+                    width: widget.flagWidth,
                   ),
                 ),
               if (!widget.hideMainText)
