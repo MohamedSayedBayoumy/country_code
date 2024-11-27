@@ -221,14 +221,10 @@ class CountryCodePickerState extends State<CountryCodePicker> {
                   ),
                 ),
               if (widget.showDropDownButton)
-                Flexible(
-                  flex: widget.alignLeft ? 0 : 1,
-                  fit: widget.alignLeft ? FlexFit.tight : FlexFit.loose,
-                  child: Icon(
-                    Icons.arrow_drop_down,
-                    color: Colors.black,
-                    size: widget.flagWidth,
-                  ),
+                Icon(
+                  Icons.arrow_drop_down,
+                  color: Colors.black,
+                  size: widget.flagWidth,
                 ),
             ],
           ),
