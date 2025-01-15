@@ -1,8 +1,8 @@
 const List<Map<String, String>> codes = [
-  {"name": "افغانستان", "code": "AF", "iso3Code": "AFG", "dial_code": "+93"},
+  {"name": "Afghanistan", "code": "AF", "iso3Code": "AFG", "dial_code": "+93"},
   {"name": "Åland", "code": "AX", "iso3Code": "ALA", "dial_code": "+358"},
   {"name": "Shqipëria", "code": "AL", "iso3Code": "ALB", "dial_code": "+355"},
-  {"name": "الجزائر", "code": "DZ", "iso3Code": "DZA", "dial_code": "+213"},
+  {"name": "Algeria", "code": "DZ", "iso3Code": "DZA", "dial_code": "+213"},
   {
     "name": "American Samoa",
     "code": "AS",
@@ -26,7 +26,7 @@ const List<Map<String, String>> codes = [
   {"name": "Österreich", "code": "AT", "iso3Code": "AUT", "dial_code": "+43"},
   {"name": "Azərbaycan", "code": "AZ", "iso3Code": "AZE", "dial_code": "+994"},
   {"name": "Bahamas", "code": "BS", "iso3Code": "BHS", "dial_code": "+1242"},
-  {"name": "‏البحرين", "code": "BH", "iso3Code": "BHR", "dial_code": "+973"},
+  {"name": "Bahrain", "code": "BH", "iso3Code": "BHR", "dial_code": "+973"},
   {"name": "Bangladesh", "code": "BD", "iso3Code": "BGD", "dial_code": "+880"},
   {"name": "Barbados", "code": "BB", "iso3Code": "BRB", "dial_code": "+1246"},
   {"name": "Белару́сь", "code": "BY", "iso3Code": "BLR", "dial_code": "+375"},
@@ -142,7 +142,7 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1"
   },
   {"name": "Ecuador", "code": "EC", "iso3Code": "ECU", "dial_code": "+593"},
-  {"name": "مصر‎", "code": "EG", "iso3Code": "EGY", "dial_code": "+20"},
+  {"name": "Egypt", "code": "EG", "iso3Code": "EGY", "dial_code": "+20"},
   {"name": "El Salvador", "code": "SV", "iso3Code": "SLV", "dial_code": "+503"},
   {
     "name": "Guinea Ecuatorial",
@@ -193,7 +193,7 @@ const List<Map<String, String>> codes = [
     "code": "GL",
     "iso3Code": "GRL",
     "dial_code": "+299"
-  },
+  }, 
   {"name": "Grenada", "code": "GD", "iso3Code": "GRD", "dial_code": "+1473"},
   {"name": "Guadeloupe", "code": "GP", "iso3Code": "GLP", "dial_code": "+590"},
   {"name": "Guam", "code": "GU", "iso3Code": "GUM", "dial_code": "+1671"},
@@ -205,7 +205,7 @@ const List<Map<String, String>> codes = [
     "code": "GW",
     "iso3Code": "GNB",
     "dial_code": "+245"
-  },
+  }, 
   {"name": "Guyana", "code": "GY", "iso3Code": "GUY", "dial_code": "+592"},
   {"name": "Haïti", "code": "HT", "iso3Code": "HTI", "dial_code": "+509"},
   {
@@ -221,8 +221,8 @@ const List<Map<String, String>> codes = [
   {"name": "Ísland", "code": "IS", "iso3Code": "ISL", "dial_code": "+354"},
   {"name": "भारत", "code": "IN", "iso3Code": "IND", "dial_code": "+91"},
   {"name": "Indonesia", "code": "ID", "iso3Code": "IDN", "dial_code": "+62"},
-  {"name": "ایران", "code": "IR", "iso3Code": "IRN", "dial_code": "+98"},
-  {"name": "العراق", "code": "IQ", "iso3Code": "IRQ", "dial_code": "+964"},
+  {"name": "Iran", "code": "IR", "iso3Code": "IRN", "dial_code": "+98"},
+  {"name": "Iraq", "code": "IQ", "iso3Code": "IRQ", "dial_code": "+964"},
   {"name": "Éire", "code": "IE", "iso3Code": "IRL", "dial_code": "+353"},
   {"name": "Isle of Man", "code": "IM", "iso3Code": "IMN", "dial_code": "+44"},
   {"name": "ישראל", "code": "IL", "iso3Code": "ISR", "dial_code": "+972"},
@@ -242,14 +242,14 @@ const List<Map<String, String>> codes = [
     "iso3Code": "KOS",
     "dial_code": "+383"
   },
-  {"name": "الكويت", "code": "KW", "iso3Code": "KWT", "dial_code": "+965"},
+  {"name": "Kuwait", "code": "KW", "iso3Code": "KWT", "dial_code": "+965"},
   {"name": "Кыргызстан", "code": "KG", "iso3Code": "KGZ", "dial_code": "+996"},
   {"name": "ສປປລາວ", "code": "LA", "iso3Code": "LAO", "dial_code": "+856"},
   {"name": "Latvija", "code": "LV", "iso3Code": "LVA", "dial_code": "+371"},
-  {"name": "لبنان", "code": "LB", "iso3Code": "LBN", "dial_code": "+961"},
+  {"name": "Lebanon", "code": "LB", "iso3Code": "LBN", "dial_code": "+961"},
   {"name": "Lesotho", "code": "LS", "iso3Code": "LSO", "dial_code": "+266"},
   {"name": "Liberia", "code": "LR", "iso3Code": "LBR", "dial_code": "+231"},
-  {"name": "‏ليبيا", "code": "LY", "iso3Code": "LBY", "dial_code": "+218"},
+  {"name": "Libya", "code": "LY", "iso3Code": "LBY", "dial_code": "+218"},
   {
     "name": "Liechtenstein",
     "code": "LI",
@@ -320,10 +320,10 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1670"
   },
   {"name": "Norge", "code": "NO", "iso3Code": "NOR", "dial_code": "+47"},
-  {"name": "عمان", "code": "OM", "iso3Code": "OMN", "dial_code": "+968"},
+  {"name": "Oman", "code": "OM", "iso3Code": "OMN", "dial_code": "+968"},
   {"name": "Pakistan", "code": "PK", "iso3Code": "PAK", "dial_code": "+92"},
   {"name": "Palau", "code": "PW", "iso3Code": "PLW", "dial_code": "+680"},
-  {"name": "فلسطين", "code": "PS", "iso3Code": "PSE", "dial_code": "+970"},
+  {"name": "Palestine", "code": "PS", "iso3Code": "PSE", "dial_code": "+970"},
   {"name": "Panamá", "code": "PA", "iso3Code": "PAN", "dial_code": "+507"},
   {
     "name": "Papua Niugini",
@@ -354,7 +354,7 @@ const List<Map<String, String>> codes = [
     "iso3Code": "PRI",
     "dial_code": "+1787"
   },
-  {"name": "قطر", "code": "QA", "iso3Code": "QAT", "dial_code": "+974"},
+  {"name": "Qatar", "code": "QA", "iso3Code": "QAT", "dial_code": "+974"},
   {"name": "România", "code": "RO", "iso3Code": "ROU", "dial_code": "+40"},
   {"name": "Россия", "code": "RU", "iso3Code": "RUS", "dial_code": "+7"},
   {"name": "Rwanda", "code": "RW", "iso3Code": "RWA", "dial_code": "+250"},
@@ -410,7 +410,7 @@ const List<Map<String, String>> codes = [
     "dial_code": "+239"
   },
   {
-    "name": "العربية السعودية",
+    "name": "Saudi Arabia",
     "code": "SA",
     "iso3Code": "SAU",
     "dial_code": "+966"
@@ -444,7 +444,7 @@ const List<Map<String, String>> codes = [
   },
   {"name": "España", "code": "ES", "iso3Code": "ESP", "dial_code": "+34"},
   {"name": "Sri Lanka", "code": "LK", "iso3Code": "LKA", "dial_code": "+94"},
-  {"name": "السودان", "code": "SD", "iso3Code": "SDN", "dial_code": "+249"},
+  {"name": "Sudan", "code": "SD", "iso3Code": "SDN", "dial_code": "+249"},
   {"name": "Suriname", "code": "SR", "iso3Code": "SUR", "dial_code": "+597"},
   {
     "name": "Svalbard og Jan Mayen",
@@ -455,7 +455,7 @@ const List<Map<String, String>> codes = [
   {"name": "Swaziland", "code": "SZ", "iso3Code": "SWZ", "dial_code": "+268"},
   {"name": "Sverige", "code": "SE", "iso3Code": "SWE", "dial_code": "+46"},
   {"name": "Schweiz", "code": "CH", "iso3Code": "CHE", "dial_code": "+41"},
-  {"name": "سوريا", "code": "SY", "iso3Code": "SYR", "dial_code": "+963"},
+  {"name": "Syria", "code": "SY", "iso3Code": "SYR", "dial_code": "+963"},
   {"name": "臺灣", "code": "TW", "iso3Code": "TWN", "dial_code": "+886"},
   {"name": "Тоҷикистон", "code": "TJ", "iso3Code": "TJK", "dial_code": "+992"},
   {"name": "Tanzania", "code": "TZ", "iso3Code": "TZA", "dial_code": "+255"},
@@ -470,7 +470,7 @@ const List<Map<String, String>> codes = [
     "iso3Code": "TTO",
     "dial_code": "+1868"
   },
-  {"name": "تونس", "code": "TN", "iso3Code": "TUN", "dial_code": "+216"},
+  {"name": "Tunisia", "code": "TN", "iso3Code": "TUN", "dial_code": "+216"},
   {"name": "Türkiye", "code": "TR", "iso3Code": "TUR", "dial_code": "+90"},
   {
     "name": "Türkmenistan",
@@ -488,7 +488,7 @@ const List<Map<String, String>> codes = [
   {"name": "Uganda", "code": "UG", "iso3Code": "UGA", "dial_code": "+256"},
   {"name": "Україна", "code": "UA", "iso3Code": "UKR", "dial_code": "+380"},
   {
-    "name": "دولة الإمارات العربية المتحدة",
+    "name": "United Arab Emirates",
     "code": "AE",
     "iso3Code": "ARE",
     "dial_code": "+971"
@@ -523,7 +523,7 @@ const List<Map<String, String>> codes = [
     "iso3Code": "WLF",
     "dial_code": "+681"
   },
-  {"name": "اليَمَن", "code": "YE", "iso3Code": "YEM", "dial_code": "+967"},
+  {"name": "Yemen", "code": "YE", "iso3Code": "YEM", "dial_code": "+967"},
   {"name": "Zambia", "code": "ZM", "iso3Code": "ZMB", "dial_code": "+260"},
   {"name": "Zimbabwe", "code": "ZW", "iso3Code": "ZWE", "dial_code": "+263"}
 ];
